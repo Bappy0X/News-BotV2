@@ -1,0 +1,86 @@
+[
+    {
+        "name": "BBC News",
+        "short": "bbcNews",
+        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "icon": "https://i2.feedspot.com/15793.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "CNET",
+        "short": "cnet",
+        "url": "https://www.cnet.com/rss/gaming/",
+        "icon": "https://i1.feedspot.com/3708244.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "New York Times",
+        "short": "newYorkTimes",
+        "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "icon": "https://i2.feedspot.com/4719130.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "Sky News",
+        "short": "skyNews",
+        "url": "http://feeds.skynews.com/feeds/rss/world.xml",
+        "icon": "https://i3.feedspot.com/4280451.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "The Telegraph",
+        "short": "theTelegraph",
+        "url": "https://www.telegraph.co.uk/news/rss.xml",
+        "icon": "https://i3.feedspot.com/4880356.jpg",
+        "descIgnore": true
+    },
+    {
+        "name": "WIRED",
+        "short": "wired",
+        "url": "https://www.wired.com/feed/rss",
+        "icon": "https://i1.feedspot.com/4724360.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "CBS News",
+        "short": "cbsNews",
+        "url": "https://www.cbsnews.com/latest/rss/main",
+        "icon": "https://i3.feedspot.com/4873151.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "CNN",
+        "short": "cnn",
+        "url": "http://rss.cnn.com/rss/edition_world.rss",
+        "icon": "https://i3.feedspot.com/3298.jpg",
+        "descIgnore": true
+    },
+    {
+        "name": "Space.com",
+        "short": "spaceCom",
+        "url": "https://www.space.com/feeds/all",
+        "icon": "https://i2.feedspot.com/4707531.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "IGN",
+        "short": "ign",
+        "url": "http://feeds.ign.com/ign/games-all",
+        "icon": "https://i1.feedspot.com/1180874.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "Hollywood Life",
+        "short": "hollywoodLife",
+        "url": "https://hollywoodlife.com/feed/",
+        "icon": "https://i2.feedspot.com/45422.jpg",
+        "descIgnore": false
+    },
+    {
+        "name": "FOX News",
+        "short": "foxNews",
+        "url": "http://feeds.foxnews.com/foxnews/world.rss",
+        "icon": "https://i1.feedspot.com/118508.jpg",
+        "descIgnore": false
+    }
+]
