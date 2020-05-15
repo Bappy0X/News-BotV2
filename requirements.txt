@@ -1,3 +1,4 @@
 discord.py==1.3.3
 Flask
 aiosqlite
+python-dotenv
