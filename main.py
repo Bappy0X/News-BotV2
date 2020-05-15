@@ -5,7 +5,6 @@ from os import getenv
 from dotenv import load_dotenv
 load_dotenv(override=True)
 
-##TODO: MOVE TO YAML FILE?
 from json import load
 with open("config.json") as file:
     config = load(file)
