@@ -1,15 +1,14 @@
 {
-    "target_bot_id": "513743617370751006",
     "creator": "439081159620689940",
     "admins": [
         "439081159620689940",
         "306771291250229250"
     ],
-    "prefix": "nb/",
-    "logs_channel": "",
-    "embed_colour": "",
+    "logs_channel": "767358754479013918",
+    "embed_author_icon": "https://poshbabez.files.wordpress.com/2007/12/club-penguin-news.jpg",
     "links": {
         "website": "https://bappy0x.tk/",
-        "about": "https://bappy0x.tk/news-bot/"
-    }
+        "about": "https://news-bot.bappy0x.tk/"
+    },
+    "feeds_delay": 30
 }

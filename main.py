@@ -9,11 +9,15 @@ from json import load
 with open("config.json") as file:
     config = load(file)
 
+config["prefix"] = getenv("PREFIX")
+config["embed_colour"] = int(getenv("EMBED_COLOUR"))
+
 bot = commands.AutoShardedBot(
-    command_prefix=commands.when_mentioned_or(config.get("prefix")), 
-    case_insensitive=True
+    command_prefix = commands.when_mentioned_or(getenv("PREFIX")), 
+    case_insensitive = True
 )
 bot.remove_command("help")
+bot._config = config
 
 @bot.event
 async def on_ready():
@@ -34,4 +38,12 @@ async def servers(ctx):
     await ctx.send(f"{ctx.author.mention}, {len(bot.guilds)}!")
 bot.add_command(servers)
 
-bot.run(getenv("BOT_TOKEN"))
+@commands.command()
+async def shutdown(ctx):
+    await ctx.send(f"{ctx.author.mention}, Shutting down!")
+    await bot.close()
+bot.add_command(shutdown)
+
+if __name__ == "__main__":
+    bot.load_extension("extensions.feeds")
+    bot.run(getenv("BOT_TOKEN"))
